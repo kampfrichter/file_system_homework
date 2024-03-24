@@ -1,4 +1,4 @@
-from return_data_file import data_file
+tfrom return_data_file import data_file
 
 def copy_row():
     data, nf = data_file()
@@ -32,7 +32,7 @@ def copy_row():
             print("Некорректный номер строки.")
 
 
-    # перезапись файла с новой построчной номирацией
+    # перезапись файла с новой построчной нумерацией
 
     with open(output_file, "r", encoding="utf-8") as file:
         data = file.readlines()
